@@ -3,7 +3,7 @@ const jsonTemplate = {
         if (type==='text') {
             return `<input type='text' class='fText inputTextFull' name='${name}' value='${value}' title='${title}' maxlength='${max}' placeholder="" data-key='${jsonKey}'/>`;
         } else if (type==='checkbox') {
-            return `<label class='gLabel'><input type='checkbox' class='' name='${name}' value='${defaultValue}' data-key='${jsonKey}' ${value==='Y' ? 'checked' : ''}> ${__(title)}</label>`;
+            return `<label class='gLabel'><input type='checkbox' class='' name='${name}' value='${defaultValue}' data-key='${jsonKey}' ${value==='Y' ? 'checked' : ''}> ${title}</label>`;
         } else if (type==='numberingText') {
             return `${defaultValue}<span class='json_numbering'>${pointer+1}</span>`;
         } else if (type==='select') {
@@ -63,7 +63,7 @@ const jsonTemplate = {
                 jsonTemplate.afterDrawRow(id, pointer, 'add');
             }
         } else {
-            STF.notify(maxRowLength+__('개 까지 입력 가능합니다.'));
+            STF.notify('max row length is ' + maxRowLength);
         }
     },
     deleteRow : (id, pointer) => {

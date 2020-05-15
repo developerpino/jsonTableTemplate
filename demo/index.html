@@ -5,44 +5,46 @@
         <script src='app.js'></script>
     </head>
     <body>
-        <table border="1">
-            <colgroup>
-                
-            </colgroup>
-            <thead>
-            <tr>
-                <th rowspan="2">num</th>
-                <th colspan="5">카테고리 명</th>
-                <th rowspan="2">카테고리 번호</th>
-                <th rowspan="2">
-                    <div>수집기준</div>
-                    <div>해외몰 상품명 키워드</div>
-                </th>
-                <th rowspan="2">
-                    <div>수집기준</div>
-                    <div>기본몰 상품명 키워드</div>
-                </th>
-                <th rowspan="2">분류 URL</th>
-                <th rowspan="2">사용여부</th>
-                <th rowspan="2">사용이력</th>
-                <th rowspan="2">비고</th>
-            </tr>
-            <tr>
-                <th>국문</th>
-                <th>영문</th>
-                <th>일문</th>
-                <th>중문</th>
-                <th>대만</th>
-            </tr>
-            </thead>
-            <tbody
-                json-table-template
-                max-row-length="10"
-                id="category_fix_json"
-                data-fields='{"image":{"type":"numberingText","value":"","default":""},"KO":{"type":"text","max":100,"value":""},"EN":{"type":"text","max":100,"value":""},"JP":{"type":"text","max":100,"value":""},"CN":{"type":"text","max":100,"value":""},"TW":{"type":"text","max":100,"value":""},"category_no":{"type":"text","max":100,"value":""},"collect_standard_overseas":{"type":"text","max":100,"value":""},"collect_standard_default_shop":{"type":"text","max":100,"value":""},"url":{"type":"text","max":1000,"value":""},"is_use":{"type":"select","max":0,"default":{"Y":"O","N":"X"},"value":""},"used_date":{"type":"text","max":100,"value":""}}'
-            >
-            </tbody>
-        </table>
+        <div>
+            <table border="1">
+                <colgroup>
+                    
+                </colgroup>
+                <thead>
+                <tr>
+                    <th rowspan="2">num</th>
+                    <th colspan="5">카테고리 명</th>
+                    <th rowspan="2">카테고리 번호</th>
+                    <th rowspan="2">
+                        <div>수집기준</div>
+                        <div>해외몰 상품명 키워드</div>
+                    </th>
+                    <th rowspan="2">
+                        <div>수집기준</div>
+                        <div>기본몰 상품명 키워드</div>
+                    </th>
+                    <th rowspan="2">분류 URL</th>
+                    <th rowspan="2">사용여부</th>
+                    <th rowspan="2">사용이력</th>
+                    <th rowspan="2">비고</th>
+                </tr>
+                <tr>
+                    <th>국문</th>
+                    <th>영문</th>
+                    <th>일문</th>
+                    <th>중문</th>
+                    <th>대만</th>
+                </tr>
+                </thead>
+                <tbody
+                    json-table-template
+                    max-row-length="10"
+                    id="category_fix_json"
+                    data-fields='{"image":{"type":"numberingText","value":"","default":""},"KO":{"type":"text","max":100,"value":""},"EN":{"type":"text","max":100,"value":""},"JP":{"type":"text","max":100,"value":""},"CN":{"type":"text","max":100,"value":""},"TW":{"type":"text","max":100,"value":""},"category_no":{"type":"text","max":100,"value":""},"collect_standard_overseas":{"type":"text","max":100,"value":""},"collect_standard_default_shop":{"type":"text","max":100,"value":""},"url":{"type":"text","max":1000,"value":""},"is_use":{"type":"select","max":0,"default":{"Y":"O","N":"X"},"value":""},"used_date":{"type":"text","max":100,"value":""}}'
+                >
+                </tbody>
+            </table>
+        </div>
         <div style="margin-top:30px">
             <button id="btnSetData" style="width:500px; height:50px" >DATA SETTING</button>
         </div>

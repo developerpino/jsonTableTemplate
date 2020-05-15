@@ -14,10 +14,11 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 Using npm:
 
 ```bash
-$ npm install jsonTableTemplate
+$ npm install json-table-template
 ```
 
 ## Example
+https://developerpino.github.io/jsonTableTemplate/demo/index.html
 
 ### add attribute like directive
 json-table-template

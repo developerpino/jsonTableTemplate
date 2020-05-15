@@ -1,6 +1,6 @@
 {
     "name": "json-table-template",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "table html template with json",
     "main": "jsonTableTemplate.js",
     "scripts": {},
