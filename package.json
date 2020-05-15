@@ -1,0 +1,23 @@
+{
+    "name": "json-table-template",
+    "version": "0.0.1",
+    "description": "table html template with json",
+    "main": "jsonTableTemplate.js",
+    "scripts": {},
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/developerpino/jsonTableTemplate.git"
+    },
+    "keywords": [
+      "table",
+      "tbody",
+      "json",
+      "template"
+    ],
+    "author": "Pino (Minsung Kim)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/developerpino/jsonTableTemplate/issues"
+    },
+    "homepage": "https://github.com/developerpino/jsonTableTemplate"
+  }
