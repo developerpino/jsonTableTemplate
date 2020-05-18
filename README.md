@@ -20,7 +20,7 @@ $ npm install json-table-template
 ## Example
 https://developerpino.github.io/jsonTableTemplate/demo/index.html
 
-### add attribute like directive
+### add attribute of html element like directive
 json-table-template
 
 ```html
