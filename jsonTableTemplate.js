@@ -113,3 +113,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+module.exports = jsonTemplate;
